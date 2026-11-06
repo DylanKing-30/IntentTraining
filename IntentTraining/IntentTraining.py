@@ -31,6 +31,13 @@ def count_words(training_data):
 
     return word_counts  #   sends the completed dictionary back to main()
 
+def count_total_words(word_counts): #   uses the dictionary created in count_words()
+    total_words = {}    #   creates an empty dictionary
+
+    for intent, counts in word_counts.items():  #   loops through each intent and its word frequencies
+        total_words[intent] = sum(counts.values())  #   adds together all the word frequences
+
+    return total_words
 ##___________________________________________________________
 ##  Training Data
 training_data = {
@@ -67,6 +74,15 @@ def main():
         for word, count in counts.items():  #   Loops through the words and prints how often each appears
             print(f"{word}: {count}")
 
+    print()
+    print()
+
+    #   Count the total words in an intent
+    total_words = count_total_words(word_counts)
+
+    #   Display the total words in each intent
+    for intent, total in total_words.items():
+        print(f"{intent}: {total}")
 
 if __name__ == "__main__":  #   Personal preference making main() run on open
     main()
