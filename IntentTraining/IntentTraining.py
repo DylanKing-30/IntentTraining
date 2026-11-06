@@ -56,4 +56,17 @@ training_data = {
 ##____________________________________________________________
 ##  Main Program
 
-def main()
+def main():
+    # Count the words in the training data
+    word_counts = count_words(training_data)    #   Calls function count_words()
+
+    # Display the results for each intent
+    for intent, counts in word_counts.items():  #   Loops through each intent
+        print(f"\nIntent: {intent}")
+
+        for word, count in counts.items():  #   Loops through the words and prints how often each appears
+            print(f"{word}: {count}")
+
+
+if __name__ == "__main__":  #   Personal preference making main() run on open
+    main()
