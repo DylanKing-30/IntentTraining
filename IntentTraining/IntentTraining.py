@@ -42,21 +42,95 @@ def count_total_words(word_counts): #   uses the dictionary created in count_wor
 ##  Training Data
 training_data = {
     "remember": [
-        "remember my favorite color",
-        "save my favorite food",
-        "remember my birthday"
+        "remember my favorite color is blue",
+        "save my favorite food as pizza",
+        "remember that my birthday is in July",
+        "my favorite basketball team is the Lakers",
+        "my interview is at three tomorrow",
+        "I live in Ohio",
+        "I really enjoy running",
+        "my favorite subject is mathematics",
+        "keep track of my appointments",
+        "don't forget that I have practice tomorrow",
+        "I want you to remember my hometown",
+        "please store this information for later",
+        "make a note that I have an exam Friday",
+        "my dog's name is Max",
+        "I prefer coffee over tea",
+        "remember that I am studying engineering",
+        "you should know that I like video games",
+        "I usually wake up at seven",
+        "save this fact about me",
+        "I have a meeting scheduled for Monday"
         ],
 
     "recall": [
         "what is my favorite color",
-        "tell me my birthday",
-        "what is my favorite food"
+        "what food do I like the most",
+        "when is my birthday",
+        "what is my favorite basketball team",
+        "when is my interview",
+        "where do I live",
+        "what sport do I enjoy",
+        "what subject do I like",
+        "do you remember my hometown",
+        "tell me what you know about me",
+        "what did I tell you yesterday",
+        "can you remind me of my appointments",
+        "what is my dog's name",
+        "do you know what I prefer",
+        "what am I studying",
+        "what time do I usually wake up",
+        "can you recall something I told you",
+        "what information have you saved about me",
+        "tell me my favorite video game",
+        "do you remember what I said earlier"
         ],
 
     "math": [
-        "add two numbers",
-        "multiply these numbers",
-        "calculate a number"
+        "what is five plus three",
+        "add these two numbers together",
+        "calculate the sum of ten and twenty",
+        "what is twelve minus seven",
+        "subtract five from fifteen",
+        "find the difference between twenty and eight",
+        "what is six times nine",
+        "multiply four by seven",
+        "calculate the product of eight and three",
+        "what is twenty divided by five",
+        "divide one hundred by ten",
+        "find the quotient of forty and eight",
+        "can you solve this math problem",
+        "help me calculate an equation",
+        "what is the square root of sixteen",
+        "what is ten squared",
+        "calculate fifteen percent of two hundred",
+        "how much is seven plus eleven",
+        "what is the result of nine multiplied by six",
+        "can you help me with a calculation"
+        ],
+
+    "forget": [
+        "forget my favorite color",
+        "delete my favorite food from memory",
+        "forget when my birthday is",
+        "remove my favorite basketball team",
+        "forget the time of my interview",
+        "don't remember where I live anymore",
+        "erase what you know about my hobbies",
+        "forget my favorite subject",
+        "remove my hometown from your memory",
+        "delete everything you know about me",
+        "forget what I told you yesterday",
+        "remove my appointments from memory",
+        "forget my dog's name",
+        "delete my personal preferences",
+        "forget what I am studying",
+        "erase my usual wake up time",
+        "I don't want you to remember that anymore",
+        "clear all of your saved information",
+        "stop remembering my favorite video game",
+        "please forget what I said earlier"
         ]
     }
 
